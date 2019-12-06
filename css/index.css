@@ -70,6 +70,14 @@ nav a{
     text-decoration: none;
     color: black;
 }
+
+
+
+nav.active > a{
+    text-decoration: underline;
+    background-color: bisque;
+}
+
 .mainImg, .aboutJumbo{
     padding-bottom: 4%;
 }
