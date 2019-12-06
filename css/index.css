@@ -56,6 +56,26 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*================= MY CODE ===================*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding:5% 0;
+    align-items: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.mainImg{
+    padding-bottom: 4%;
+}
+
+/*=============================================*/
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -88,6 +108,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -104,13 +125,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+/*    background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.boxes .box.one{
+    background-color: teal;
+}
+
+.boxes .box.two{
+    background-color: gold;
+}
+
+.boxes .box.three{
+    background-color: cadetblue;
+}
+
+.boxes .box.four{
+    background-color: coral;
+}
+
+.boxes .box.five{
+    background-color: crimson;
+}
+
+.boxes .box.six{
+    background-color: forestgreen;
+}
+
+.boxes .box.seven{
+    background-color: darkorchid;
+}
+
+.boxes .box.eight{
+    background-color: hotpink;
+}
+
+.boxes .box.nine{
+    background-color: indigo;
+}
+
+.boxes .box.ten{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
