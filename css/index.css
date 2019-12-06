@@ -70,7 +70,7 @@ nav a{
     text-decoration: none;
     color: black;
 }
-.mainImg{
+.mainImg, .aboutJumbo{
     padding-bottom: 4%;
 }
 
@@ -99,11 +99,57 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/*=========about top content==========*/
+.topText{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+/*===============================*/
+
+/*=========== TOP CONTAINER + MY CODE ==========*/
+
+.top-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*    margin-bottom: 20px;*/
+}
+.text-containerAbout{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+.text-containerAbout img{
+    padding-bottom: 20px;
+}
+
+button{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2.5% 0;
+    font-size: 15px;
+    color: black;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 2% 30px;*/
+}
+
+/*=============================*/
 
 .middle-content {
     margin-bottom: 20px;
